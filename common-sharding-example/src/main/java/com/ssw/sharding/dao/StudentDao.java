@@ -8,5 +8,6 @@ import java.util.List;
 
 public interface StudentDao extends JpaRepository<Student,String>, JpaSpecificationExecutor<Student> {
 
-    List<Student> findAll();
+//    List<Student> findAll();
+
 }
